@@ -1,0 +1,12 @@
+export enum  TILE_TYPE_ENUM {
+  WALL_COLUMN = 'WALL_COLUMN', // 竖着的墙壁
+  WALL_LEFT_BOTTOM = 'WALL_LEFT_BOTTOM', // 墙左下
+  WALL_LEFT_TOP = 'WALL_LEFT_TOP', // 墙左上
+  WALL_RIGHT_BOTTOM = 'WALL_RIGHT_BOTTOM', // 右下角
+  WALL_RIGHT_TOP = 'WALL_RIGHT_TOP', // 右上角
+  WALL_ROW = 'WALL_ROW', // 墙右
+  CLIFF_LEFT = 'CLIFF_LEFT', // 左侧悬崖
+  FLOOR = 'FLOOR', // 地板
+  CLIFF_CENTER = 'CLIFF_CENTER', // 悬崖中心
+  CLIFF_RIGHT = 'CLIFF_RIGHT', // 左侧悬崖
+}
